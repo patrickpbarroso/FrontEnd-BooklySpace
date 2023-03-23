@@ -1,0 +1,22 @@
+@import url("styles/header.css");
+
+:root {
+    --fundo-escuro: #28282C;
+    --fundo-claro: #3D3C42;
+    --cor-comum: #FEFBF6;
+    --cor-destaque: #12AC87;
+    --fonte-texto: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: var(--fundo-escuro);
+    color: var(--cor-comum);
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: var(--fonte-texto)
+}
