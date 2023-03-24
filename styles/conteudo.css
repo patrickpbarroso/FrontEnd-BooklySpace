@@ -1,0 +1,41 @@
+.conteudo__titulo {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: var(--fundo-claro);
+    text-align: center;
+    padding: 1em 2em;
+}
+
+.conteudo__resenhas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5em;
+}
+
+.conteudo__resenhas-post {
+    margin-bottom: 1.5em;
+    text-decoration: none;
+}
+
+.conteudo__texto {
+    text-align: left;
+}
+
+.conteudo__resenhas-img {
+    width: 100%;
+}
+
+.conteudo__resenhas-titulo, .conteudo__resenhas-autor {
+    color: var(--cor-comum);
+}
+
+.conteudo__resenhas-titulo {
+    font-size: 15px;
+}
+
+.conteudo__resenhas-autor {
+    font-size: 12px;
+}
+
+

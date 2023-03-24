@@ -39,3 +39,8 @@
     background-position: 3em;  
     padding: 1em;
 }
+
+input, select, textarea{
+    color: var(--branco);
+    font-family: var(--fonte-texto);
+}
