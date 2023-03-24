@@ -22,17 +22,18 @@
 }
 
 .container__imagem {
-    padding: 1em;
+    padding: 1.8em;
 }
 
-.container__logo-imagem {
-    padding: 0.3em;
+.container__logo {
+    padding: 0.5em;
 }
+
 
 .cabecalho__conta-categorias {
     width: 30px;
     height: 28px;
-    background-image: url("../img/perfil.svg");
+    background-image: url("../img/Perfil.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -40,9 +41,120 @@
 }
 
 .opcoes {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
 }
 
+.opcoes__icone {
+    padding: 0 1em;
+}
+
+.opcoes__imagem {
+    padding: 1.7em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 70vw;
+    
+    
+}
+
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-categorias{
+    background-image: url("../img/Menu-aberto.svg");
+}
+
+.container__botao:checked ~ .container__rotulo {
+    background-color: var(--fundo-escuro);
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+
+}
+
+.lista-menu__titulo, .lista-menu__item {
+    background-color: var(--fundo-escuro);
+}
+
+.lista-menu__titulo {
+    font-size: 18px;
+    color: var(--cor-destaque);
+    font-weight: 700;
+    display: flex;
+    padding: 1em 0.8em 0em 0.8em;
+}
+
+.lista-menu__item {
+    padding: 0.7em;
+    display: flex;
+    padding: 0.8em 2em;
+}
+
+.lista-menu__link {
+    font-weight: 500;
+    color: var(--fonte-texto);
+    text-decoration: none;
+}
+
+.container__botao {
+    display: none;
+}
+
+.opcoes__conta:checked ~ .opcoes__rotulo > .cabecalho__conta-categorias {
+    background-image: url("../img/Conta-aberto.svg");
+}
+
+.opcoes__conta:checked ~ .opcoes__rotulo {
+    background-color: var(--fundo-escuro);
+}
+
+.opcoes__conta:checked ~ .opcoes-menu {
+    display: block;
+}
+
+.opcoes-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 70vw;
+}
+
+.opcoes-menu__titulo, .opcoes-menu__item {
+    background-color: var(--fundo-escuro);
+}
+
+.opcoes-menu__titulo {
+    font-size: 18px;
+    color: var(--cor-destaque);
+    font-weight: 700;
+    display: flex;
+    padding: 1em 0.8em 0em 0.8em;
+}
+
+.opcoes-menu__item {
+    padding: 0.7em;
+    display: flex;
+    padding: 0.8em 2em;
+    text-align: center;
+}
+
+.opcoes-menu__link {
+    font-weight: 500;
+    color: var(--fonte-texto);
+    text-decoration: none;
+    display: flex;
+}
+
+.opcoes-menu__icone {
+    margin-right: 1em;
+}
+
+.opcoes__conta {
+    display: none;
+}
 
