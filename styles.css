@@ -3,12 +3,14 @@
 @import url("styles/conteudo.css");
 @import url("styles/rodape.css");
 @import url("styles/perfil.css");
+@import url("styles/configs.css");
 
 :root {
     --fundo-escuro: #28282C;
     --fundo-claro: #3D3C42;
     --cor-comum: #FEFBF6;
     --cor-destaque: #12AC87;
+    --cor-alerta: #CC5833;
     --fonte-texto: 'Montserrat', sans-serif;
 }
 

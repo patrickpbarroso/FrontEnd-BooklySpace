@@ -1,0 +1,62 @@
+.config {
+    padding: 1em;
+}
+
+.config__titulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: var(--cor-destaque);
+    padding: 1em;
+}
+
+.config__campos {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.campos__titulo {
+    color: var(--cor-destaque)
+}
+
+.configs__campo {
+    padding: 0.5em;
+    font-weight: 600;
+}
+
+.configs__campo-dado {
+    background-color: var(--fundo-claro);
+    padding: 1em;
+    width: 90%;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.config__botoes {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 3em;
+}
+
+.config__editar, .config__apagar {
+    font-family: var(--fonte-texto);
+    padding: 1em;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    color: var(--cor-comum);
+    font-weight: 700;
+}
+
+.config__editar {
+    background-color: var(--cor-destaque);
+}
+
+.config__apagar {
+    background-color: var(--cor-alerta)
+}
