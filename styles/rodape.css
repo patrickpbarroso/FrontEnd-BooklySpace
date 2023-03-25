@@ -5,6 +5,11 @@
     background-color: var(--fundo-claro);
 }
 
+.rodape__texto {
+    text-decoration: none;
+    color: var(--cor-comum)
+}
+
 .rodape__link {
     padding: 0 0.7em;
 }
