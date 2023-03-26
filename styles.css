@@ -5,6 +5,7 @@
 @import url("styles/perfil.css");
 @import url("styles/configs.css");
 @import url("styles/login-cadastro.css");
+@import url("styles/resenha.css");
 
 :root {
     --fundo-escuro: #28282C;
