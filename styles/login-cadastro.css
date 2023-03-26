@@ -1,0 +1,7 @@
+.campos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 1em;
+}

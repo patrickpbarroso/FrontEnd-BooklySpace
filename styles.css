@@ -4,6 +4,7 @@
 @import url("styles/rodape.css");
 @import url("styles/perfil.css");
 @import url("styles/configs.css");
+@import url("styles/login-cadastro.css");
 
 :root {
     --fundo-escuro: #28282C;
