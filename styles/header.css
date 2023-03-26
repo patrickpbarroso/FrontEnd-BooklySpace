@@ -154,7 +154,120 @@
     margin-right: 1em;
 }
 
-.opcoes__conta {
+.container__desktop, .banner__pesquisa__desktop, .opcoes__conta, .opcoes__link__desktop, .opcoes__link__texto{
     display: none;
 }
 
+@media screen and (min-width: 1024px) {
+    .container {
+        display: none;
+    }
+
+    .container__desktop {
+        display: flex;
+        align-items: center;
+        padding: 0 1em;
+        gap: 2em;
+        width: 40%;
+    }
+
+    .identidade__texto__header {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .identidade__destaque__header {
+        color: var(--cor-destaque)
+    }
+
+    .banner__pesquisa__desktop {
+        display: flex;
+        background-color: var(--fundo-escuro);
+        border: none;
+        font-family: var(--fonte-texto);
+        padding: 0.5em; 
+        border-radius: 30px;
+        width: 60%;
+    }
+
+    .banner__pesquisa__desktop::placeholder {
+        font-family: var(--fonte-texto);
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+        background: url("../img/Pesquisa.svg");
+        background-repeat: no-repeat;
+        background-position: 3em;  
+        padding: 1em;
+    }
+
+    .opcoes__link {
+        display: none;
+    }
+
+    .opcoes__link__desktop {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--cor-comum)
+
+    }
+
+    .opcoes__link__texto {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .cabecalho {
+    background-color: var(--fundo-claro);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    }
+
+    .opcoes {
+        display: flex;
+        justify-content: space-between;
+        gap: 3em;
+    }
+
+    .opcoes__imagem {
+       padding: 1.8em;
+    }
+
+    .opcoes__icone {
+        width: 30%;
+    }
+
+    .opcoes__rotulo {
+        display: flex;
+        align-items: center;
+        padding: 0 2em 0 0;
+    }
+
+    .opcoes__conta:checked ~ .opcoes__rotulo > .opcoes__link__texto {
+        color: var(--cor-destaque)
+    }
+
+    .opcoes__link__texto {
+        display: flex;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .opcoes-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 85%;
+        width: 15vw;
+    }
+
+    .opcoes-menu__titulo {
+        display: none;
+    }
+}

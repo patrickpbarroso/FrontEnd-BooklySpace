@@ -44,3 +44,7 @@ input, select, textarea{
     color: var(--branco);
     font-family: var(--fonte-texto);
 }
+
+@media screen and (min-width: 1024px) {
+    
+}
