@@ -27,64 +27,101 @@
                 <li class="lista-menu__item"><a href="#" class="lista-menu__link">Romance</a></li>
                 <li class="lista-menu__item"><a href="#" class="lista-menu__link">Terror</a></li>
             </ul>
-            <a href="index.html" class="container__logo">
+            <a href="#" class="container__logo">
                 <img src="img/Logo.svg" class="container__logo-imagem">
             </a>
         </div>
 
+        <div class="container__desktop">
+            <a href="#" class="container__logo">
+                <img src="img/Logo.svg" class="container__logo-imagem">
+            </a>
+            <p class="identidade__texto__header"><strong class="identidade__destaque__header">Bookly</strong> Space</p>
+            <input type="search" placeholder="Qual será sua próxima leitura?" class="banner__pesquisa__desktop">
+        </div>
+        
+
         <div class="opcoes">
+
+            <a href="#" class="opcoes__link__desktop">
+                <img src="img/Salvos.svg" class="opcoes__icone">
+                <p class="opcoes__link__texto">Salvos</p>
+            </a>
+            <a href="#" class="opcoes__link__desktop">
+                <img src="img/Recomendacoes.svg" class="opcoes__icone">
+                <p class="opcoes__link__texto">Recomendações</p>
             <a href="#" class="opcoes__link">
+
                 <img src="img/Nova.svg" class="opcoes__icone">
             </a>
             <a href="#" class="opcoes__link">
                 <img src="img/Minhas.svg" class="opcoes__icone">
             </a>
+
             <input type="checkbox" id="conta" class="opcoes__conta">
             <label for="conta" class="opcoes__rotulo">
                 <span class="cabecalho__conta-categorias opcoes__imagem"></span> 
+                <p class="opcoes__link__texto">Conta</p>
             </label>
+            
             <ul class="opcoes-menu">
                 <li class="opcoes-menu__titulo">Conta</li>
                 <li class="opcoes-menu__item"><a href="perfil.html" class="opcoes-menu__link"><img src="img/Perfil-lista.svg" class="opcoes-menu__icone"> Meu perfil</a></li>
                 <li class="opcoes-menu__item"><a href="#" class="opcoes-menu__link"><img src="img/Favs.svg" class="opcoes-menu__icone">Favoritos</a></li>
-                <li class="opcoes-menu__item"><a href="#" class="opcoes-menu__link"><img src="img/Recomendacoes.svg" class="opcoes-menu__icone">Recomendações</a></li>
+                <li class="opcoes-menu__item mobile"><a href="#" class="opcoes-menu__link"><img src="img/Recomendacoes.svg" class="opcoes-menu__icone">Recomendações</a></li>
                 <li class="opcoes-menu__item"><a href="configs.html" class="opcoes-menu__link"><img src="img/Config.svg" class="opcoes-menu__icone">Configurações</a></li>
-                <li class="opcoes-menu__item"><a href="#" class="opcoes-menu__link"><img src="img/Salvos.svg" class="opcoes-menu__icone">Salvos</a></li>
-                <li class="opcoes-menu__item"><a href="login.html" class="opcoes-menu__link"><img src="img/Sair.svg" class="opcoes-menu__icone">Sair</a></li> class="opcoes-menu__icone">Sair</a></li>
+                <li class="opcoes-menu__item mobile"><a href="#" class="opcoes-menu__link"><img src="img/Salvos.svg" class="opcoes-menu__icone">Salvos</a></li>
+                <li class="opcoes-menu__item"><a href="login.html" class="opcoes-menu__link"><img src="img/Sair.svg" class="opcoes-menu__icone">Sair</a></li>
             </ul>
         </div>
     </header>
 
     <section class="perfil">
+        <!-- Perfil para dispositivos mobile -->
         <div class="perfil__info">
-            <h2 class="perfil__nome">Gustavo Castro</h2>
-            <p class="perfil__username">@gus_castro</p>
-            <img class="perfil__img" src="img/foto_perfil.svg">
-        <h2 class="perfil__titulo">Sobre mim</h2>
-            <p class="perfil__bio">Olá! Sou o Gustavo. Leitor de ficção científica e fantasia em busca de novos horizontes literários e aspirante a escritor.  </p>
-        <h2 class="perfil__titulo">Lendo agora</h2>
-            <p class="perfil__bio">O Homem que era quinta-feira - G.K. Chesterton</p>
-        <h2 class="perfil__titulo">Livro favorito</h2>
-            <p class="perfil__bio">O Silmarillion - J.R.R. Tolkien</p>
-            <a href="#" class="perfil__editar">Editar perfil</a>
+            <div class="perfil__info-dados">
+                <h2 class="perfil__nome">Gustavo Castro</h2>
+                <p class="perfil__username">@gus_castro</p>
+                <img class="perfil__img" src="img/foto_perfil.svg">
+                <h2 class="perfil__titulo">Sobre mim</h2>
+                    <p class="perfil__bio">Olá! Sou o Gustavo. Leitor de ficção científica e fantasia em busca de novos horizontes literários e aspirante a escritor.  </p>
+            </div>
+        <!-- Perfil para dispositivos desktop -->
+        <div class="perfil__desktop">
+                <div class="perfil__img-desktop">
+                <p class="perfil__title-desktop">Perfil</p>
+                <img src="img/foto_perfil.svg">
+            </div>
+            <div class="perfil__info-bio">
+                <h2 class="perfil__nome">Gustavo Castro</h2>
+                <p class="perfil__username">@gus_castro</p>
+                <p class="perfil__bio">Olá! Sou o Gustavo. Leitor de ficção científica e fantasia em busca de novos horizontes literários e aspirante a escritor. </p>
+            </div>
         </div>
-        
-        <div class="perfil__resenhas">
-            <h2 class="perfil__titulo">Resenhas publicadas</h2>
-            <a href = "#" class="conteudo__resenhas-post">
-                <img class="conteudo__resenhas-img" src="img/sam.svg">
-                <div class="conteudo__texto">
-                    <p class="conteudo__resenhas-titulo">O Senhor dos Anéis - As Duas Torres</p>
-                    <p class="conteudo__resenhas-autor">J.R.R. Tolkien</p>
-                </div>
-            </a>
-                <p class="perfil__joined">Joined in march 2023</p>
-        </div>
-
-        
-
-
     </section>
+
+    <section class="perfil__lendo">
+        <div class="perfil__lendo-agora">
+            <h2 class="perfil__titulo">Lendo agora</h2>
+            <p class="perfil__bio">O Homem que era quinta-feira - G.K. Chesterton</p>
+        </div>
+        <div class="perfil__lendo-favorito">
+            <h2 class="perfil__titulo">Livro favorito</h2>
+            <p class="perfil__bio">O Silmarillion - J.R.R. Tolkien</p>
+        </div>
+    </section>
+    
+    <section class="perfil__resenhas">
+        <h2 class="perfil__titulo">Resenhas publicadas</h2>
+        <a href = "#" class="conteudo__resenhas-post">
+            <img class="conteudo__resenhas-img" src="img/sam.svg">
+            <div class="conteudo__texto">
+                <p class="conteudo__resenhas-titulo">O Senhor dos Anéis - As Duas Torres</p>
+                <p class="conteudo__resenhas-autor">J.R.R. Tolkien</p>
+            </div>
+        </a>
+    </section>
+    <p class="perfil__joined">Joined in march 2023</p>
 
 
     <footer class="rodape">

@@ -38,7 +38,7 @@
     font-size: 12px;
 }
 
-.conteudo__categorias {
+.conteudo__categorias, .conteudo__resenhas-descricao {
     display: none;
 }
 

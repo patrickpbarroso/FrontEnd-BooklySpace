@@ -61,8 +61,6 @@
     position: absolute;
     top: 100%;
     width: 70vw;
-    
-    
 }
 
 .container__botao:checked ~ .container__rotulo > .cabecalho__menu-categorias{
