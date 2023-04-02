@@ -72,3 +72,39 @@
     color: var(--cor-comum)
 }
 
+.identidade__logo-desktop {
+    display: none
+}
+
+@media screen and (min-width: 1024px) {
+    .identidade__logo {
+        display: none;
+    }
+
+    .identidade__logo-desktop {
+        display: flex;
+    }
+
+    .identidade__conteudo {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    .campos {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .campos__item {
+        width: 30%
+    }
+
+    .campos__botao {
+        width: 30%
+    }
+}
+
