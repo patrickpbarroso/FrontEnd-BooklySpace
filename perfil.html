@@ -76,7 +76,7 @@
         </div>
     </header>
 
-    <section class="perfil">
+    <section class="perfil__lendo">
         <!-- Perfil para dispositivos mobile -->
         <div class="perfil__info">
             <div class="perfil__info-dados">
@@ -84,18 +84,29 @@
                 <p class="perfil__username">@gus_castro</p>
                 <img class="perfil__img" src="img/foto_perfil.svg">
                 <h2 class="perfil__titulo">Sobre mim</h2>
-                    <p class="perfil__bio">Olá! Sou o Gustavo. Leitor de ficção científica e fantasia em busca de novos horizontes literários e aspirante a escritor.  </p>
+                    <p class="perfil__bio">Olá! Sou o Gustavo. Leitor de ficção científica e fantasia em busca de novos horizontes literários e aspirante a escritor.
+                        Atualmente eu moro em Diamantina, Minas Geras, e faço o curso de letras na UFVJM. Adoro fazer novos amigos e compartilhar os pontos que mais 
+                        achei interessante das minhas leituras.  </p>
             </div>
         <!-- Perfil para dispositivos desktop -->
         <div class="perfil__desktop">
-                <div class="perfil__img-desktop">
+            <div class="perfil__img-desktop">
                 <p class="perfil__title-desktop">Perfil</p>
                 <img src="img/foto_perfil.svg">
             </div>
             <div class="perfil__info-bio">
-                <h2 class="perfil__nome">Gustavo Castro</h2>
-                <p class="perfil__username">@gus_castro</p>
-                <p class="perfil__bio">Olá! Sou o Gustavo. Leitor de ficção científica e fantasia em busca de novos horizontes literários e aspirante a escritor. </p>
+                <div class="user-name">
+                    <div>
+                        <h2 class="perfil__nome">Gustavo Castro</h2>
+                        <p class="perfil__username">@gus_castro</p>
+                    </div>
+                    <button type="button" class="botao__editar-perfil">Editar perfil</button>
+                    
+                </div>
+                <p class="perfil__destaque">Bio</p>
+                <p class="perfil__bio">Olá! Sou o Gustavo. Leitor de ficção científica e fantasia em busca de novos horizontes literários e aspirante a escritor.
+                    Atualmente eu moro em Diamantina, Minas Geras, e faço o curso de letras na UFVJM. Adoro fazer novos amigos e compartilhar os pontos que mais 
+                    achei interessante das minhas leituras. </p>
             </div>
         </div>
     </section>
@@ -109,17 +120,43 @@
             <h2 class="perfil__titulo">Livro favorito</h2>
             <p class="perfil__bio">O Silmarillion - J.R.R. Tolkien</p>
         </div>
+        <button type="button" class="botao__editar-mobile">Editar perfil</button>
     </section>
     
     <section class="perfil__resenhas">
-        <h2 class="perfil__titulo">Resenhas publicadas</h2>
-        <a href = "#" class="conteudo__resenhas-post">
-            <img class="conteudo__resenhas-img" src="img/sam.svg">
-            <div class="conteudo__texto">
-                <p class="conteudo__resenhas-titulo">O Senhor dos Anéis - As Duas Torres</p>
-                <p class="conteudo__resenhas-autor">J.R.R. Tolkien</p>
-            </div>
-        </a>
+        <h2 class="perfil__titulo">Resenhas do usuário</h2>
+        <ul class="conteudo__resenhas-user">
+            <li class="conteudo__resenhas-item">
+                <a href = "resenha.html" class="conteudo__resenhas-post">
+                    <img class="conteudo__resenhas-img" src="img/sam.svg">
+                    <div class="conteudo__texto">
+                        <p class="conteudo__resenhas-titulo">O Senhor dos Anéis - As Duas Torres</p>
+                        <p class="conteudo__resenhas-autor">J.R.R. Tolkien</p>
+                        <p class="conteudo__resenhas-descricao">Saga de fantasia mais popular do mundo</p>
+                    </div>
+                </a>
+            </li>
+            <li class="conteudo__resenhas-item">
+                <a href = "resenha.html" class="conteudo__resenhas-post">
+                    <img class="conteudo__resenhas-img" src="img/sam.svg">
+                    <div class="conteudo__texto">
+                        <p class="conteudo__resenhas-titulo">O Senhor dos Anéis - As Duas Torres</p>
+                        <p class="conteudo__resenhas-autor">J.R.R. Tolkien</p>
+                        <p class="conteudo__resenhas-descricao">Saga de fantasia mais popular do mundo</p>
+                    </div>
+                </a>
+            </li>
+            <li class="conteudo__resenhas-item">
+                <a href = "resenha.html" class="conteudo__resenhas-post">
+                    <img class="conteudo__resenhas-img" src="img/sam.svg">
+                    <div class="conteudo__texto">
+                        <p class="conteudo__resenhas-titulo">O Senhor dos Anéis - As Duas Torres</p>
+                        <p class="conteudo__resenhas-autor">J.R.R. Tolkien</p>
+                        <p class="conteudo__resenhas-descricao">Saga de fantasia mais popular do mundo</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
     </section>
     <p class="perfil__joined">Joined in march 2023</p>
 

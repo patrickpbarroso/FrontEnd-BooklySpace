@@ -94,13 +94,31 @@
     margin: 0 1em;
 }
 
+.conteudo__resenhas-user {
+    list-style-type: none;
+}
+
+.botao__editar-mobile {
+    background-color: var(--cor-destaque);
+    border: none;
+    font-family: var(--fonte-texto);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--cor-comum);
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border-radius: 10px;
+    width: 50%;
+}
+
 @media screen and (min-width: 1024px) {
-    .perfil__info-dados, .perfil__titulo {
+    .perfil__info-dados, .perfil__titulo, .botao__editar-mobile {
         display: none;
     }
 
     .perfil__desktop {
         display: flex;
+        justify-content: space-between;
     }
 
     .perfil__info-bio {
@@ -123,9 +141,27 @@
         padding: 0.5em;
     }
 
+    .perfil__destaque {
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 0.5em;
+    }
+
+    .perfil__username {
+        font-size: 15px;
+        font-weight: 400;
+        padding: 0 0 0.5em 0;
+    }
+
+    .user-name {
+        display: flex;
+        gap: 0.5em;
+        justify-content: space-between;
+    }
+
     .perfil__bio {
         margin: 0;
-        width: 80%;
+        width: 90%;
         padding: 1em 5em;
     }
     .perfil__lendo {
@@ -140,7 +176,6 @@
 
     .perfil__resenhas {
         display: grid;
-        width: 25%;
         padding: 2em 10em;
     }
 
@@ -153,5 +188,29 @@
         margin: 0.5em 0;
         align-items: left;
         text-align: left;
+    }
+    .conteudo__resenhas-user {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 95%;
+        list-style-type: none;
+    }
+
+    .conteudo__resenhas-user > li {
+        flex-basis: 30%;
+    }
+
+    .botao__editar-perfil {
+        background-color: var(--cor-destaque);
+        border: none;
+        font-family: var(--fonte-texto);
+        font-weight: 700;
+        font-size: 16px;
+        color: var(--cor-comum);
+        padding: 0.5em;
+        border-radius: 10px;
+        width: 15%;
     }
 }

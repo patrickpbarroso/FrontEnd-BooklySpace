@@ -49,6 +49,10 @@ input, select, textarea{
     display: none;
 }
 
+.lado-direito {
+    width: 70%;
+}
+
 @media screen and (min-width: 1024px) {
 
     .lado-esquerdo {
@@ -71,6 +75,8 @@ input, select, textarea{
 
     .pagina {
         display: flex;
+        justify-content: space-between;
+        padding: 0 1em;
     }
 
     .total {
