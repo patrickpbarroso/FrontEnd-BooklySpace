@@ -32,57 +32,126 @@
             </a>
         </div>
 
+        <div class="container__desktop">
+            <a href="index.html" class="container__logo">
+                <img src="img/Logo.svg" class="container__logo-imagem">
+            </a>
+            <p class="identidade__texto__header"><strong class="identidade__destaque__header">Bookly</strong> Space</p>
+            <input type="search" placeholder="Qual será sua próxima leitura?" class="banner__pesquisa__desktop">
+        </div>
+        
+
         <div class="opcoes">
+
+            <a href="#" class="opcoes__link__desktop">
+                <img src="img/Salvos.svg" class="opcoes__icone">
+                <p class="opcoes__link__texto">Salvos</p>
+            </a>
+            <a href="#" class="opcoes__link__desktop">
+                <img src="img/Recomendacoes.svg" class="opcoes__icone">
+                <p class="opcoes__link__texto">Recomendações</p>
             <a href="#" class="opcoes__link">
+
                 <img src="img/Nova.svg" class="opcoes__icone">
             </a>
             <a href="#" class="opcoes__link">
                 <img src="img/Minhas.svg" class="opcoes__icone">
             </a>
+
             <input type="checkbox" id="conta" class="opcoes__conta">
             <label for="conta" class="opcoes__rotulo">
                 <span class="cabecalho__conta-categorias opcoes__imagem"></span> 
+                <p class="opcoes__link__texto">Conta</p>
             </label>
+            
             <ul class="opcoes-menu">
                 <li class="opcoes-menu__titulo">Conta</li>
                 <li class="opcoes-menu__item"><a href="perfil.html" class="opcoes-menu__link"><img src="img/Perfil-lista.svg" class="opcoes-menu__icone"> Meu perfil</a></li>
                 <li class="opcoes-menu__item"><a href="#" class="opcoes-menu__link"><img src="img/Favs.svg" class="opcoes-menu__icone">Favoritos</a></li>
-                <li class="opcoes-menu__item"><a href="#" class="opcoes-menu__link"><img src="img/Recomendacoes.svg" class="opcoes-menu__icone">Recomendações</a></li>
+                <li class="opcoes-menu__item mobile"><a href="#" class="opcoes-menu__link"><img src="img/Recomendacoes.svg" class="opcoes-menu__icone">Recomendações</a></li>
                 <li class="opcoes-menu__item"><a href="configs.html" class="opcoes-menu__link"><img src="img/Config.svg" class="opcoes-menu__icone">Configurações</a></li>
-                <li class="opcoes-menu__item"><a href="#" class="opcoes-menu__link"><img src="img/Salvos.svg" class="opcoes-menu__icone">Salvos</a></li>
+                <li class="opcoes-menu__item mobile"><a href="#" class="opcoes-menu__link"><img src="img/Salvos.svg" class="opcoes-menu__icone">Salvos</a></li>
                 <li class="opcoes-menu__item"><a href="login.html" class="opcoes-menu__link"><img src="img/Sair.svg" class="opcoes-menu__icone">Sair</a></li>
             </ul>
         </div>
     </header>
 
-    <section class="resenha">
-        <img class="resenha__imagem" src="img/anna.svg">
-        <h1 class="resenha__titulo">Anna Karenina</h1>
-        <p class="resenha__autor">Liévin Tolstoi</p>
-        <p class="resenha__descricao">Romance russo do século 18 que narra a complexa
-            sociedade de Moscou e São Petersburgo</p>
-        <p class="resenha__texto">A trama gira em torno do caso extra-conjugal da personagem que dá título à obra, uma aristocrata da Rússia Czarista que, a despeito de parecer ter 
-            tudo (beleza, riqueza, popularidade e um filho amado), sente-se vazia até encontrar o impetuoso oficial Conde Vronsky, com quem inicia um caso amoroso. A história começa 
-            com Anna chegando à casa do seu irmão, Stepan, que está em uma situação difícil com sua esposa, Dolly, e Anna trata de intervir na situação, que de alguma forma é um reflexo
-             da sua própria situação.
-            O oficial Vronsky está disposto a se casar com Anna Karenina assim que ela se divorcie do seu esposo Alexey Karenin, um alto servidor público, mas ela é vulnerável às pressões 
-            da sociedade russa, a suas próprias inseguranças e à indecisão de Karenin. Ainda que ela e Vronsky fujam para a Itália, eles encontram dificuldade em fazer amigos. De volta à
-             Rússia, ela se torna cada vez mais ansiosa e isolada, enquanto Vronsky continua mantendo uma vida social. Apesar das reafirmações de Vronsky, ela se torna cada vez mais
-              possessiva e paranóica sobre a infidelidade de seu amante, chegando a ficar fora de controle.
-            Paralelamente acompanhamos a história de Konstantin Levin, um proprietário de terra que possui o desejo de se casar com Kitty, irmã de Dolly, chegando a propor casamento duas
-             vezes, até ela aceitar. O romance detalha as dificuldades de Levin em lidar com seu patrimônio, seu eventual casamento e suas questões pessoais até o nascimento do seu filho.</p>
-        
-    </section>
+    <div class="total">
+        <section class="pagina">
 
-    <section class="resenha__dados">
-        <p class="resenha__curtidas">561 curtidas</p>
-        <div class="resenha__dados__botoes">
-            <img class="resenha__botoes" src="img/heart.svg">
-            <img class="resenha__botoes" src="img/send2.svg">
-            <img class="resenha__botoes__salvar" src="img/Salvos.svg">
+            <div class="lado-esquerdo">
+    
+                <a href="#" class="lado-esquerdo__item">
+                    <img src="img/Nova.svg">
+                    <p>Publicar resenha</p>
+                </a>
+    
+                <a href="#" class="lado-esquerdo__item">
+                    <img src="img/Minhas.svg">
+                    <p>Minhas resenhas</p>
+                </a>
+                
+            </div>
+
+            <div class="lado-direito">
+                <section class="resenha">
+                    <img class="resenha__imagem" src="img/anna.svg">
+                    <h1 class="resenha__titulo">Anna Karenina</h1>
+                    <p class="resenha__autor">Liévin Tolstoi</p>
+                    <p class="resenha__descricao">Romance russo do século 18 que narra a complexa
+                        sociedade de Moscou e São Petersburgo</p>
+                    <p class="resenha__texto">A trama gira em torno do caso extra-conjugal da personagem que dá título à obra, uma aristocrata da Rússia Czarista que, a despeito de parecer ter 
+                        tudo (beleza, riqueza, popularidade e um filho amado), sente-se vazia até encontrar o impetuoso oficial Conde Vronsky, com quem inicia um caso amoroso. A história começa 
+                        com Anna chegando à casa do seu irmão, Stepan, que está em uma situação difícil com sua esposa, Dolly, e Anna trata de intervir na situação, que de alguma forma é um reflexo
+                         da sua própria situação.
+                        O oficial Vronsky está disposto a se casar com Anna Karenina assim que ela se divorcie do seu esposo Alexey Karenin, um alto servidor público, mas ela é vulnerável às pressões 
+                        da sociedade russa, a suas próprias inseguranças e à indecisão de Karenin. Ainda que ela e Vronsky fujam para a Itália, eles encontram dificuldade em fazer amigos. De volta à
+                         Rússia, ela se torna cada vez mais ansiosa e isolada, enquanto Vronsky continua mantendo uma vida social. Apesar das reafirmações de Vronsky, ela se torna cada vez mais
+                          possessiva e paranóica sobre a infidelidade de seu amante, chegando a ficar fora de controle.
+                        Paralelamente acompanhamos a história de Konstantin Levin, um proprietário de terra que possui o desejo de se casar com Kitty, irmã de Dolly, chegando a propor casamento duas
+                         vezes, até ela aceitar. O romance detalha as dificuldades de Levin em lidar com seu patrimônio, seu eventual casamento e suas questões pessoais até o nascimento do seu filho.</p>
+                    
+                </section>
+                <section class="resenha__dados">
+                    <p class="resenha__curtidas">561 curtidas</p>
+                    <div class="resenha__dados__botoes">
+                        <img class="resenha__botoes" src="img/heart.svg">
+                        <img class="resenha__botoes" src="img/send2.svg">
+                        <img class="resenha__botoes__salvar" src="img/Salvos.svg">
+                    </div>
+                </section>
+            </div>
+            <div class="resenhas__mobile">
+                <section class="resenha">
+                    <img class="resenha__imagem" src="img/anna.svg">
+                    <h1 class="resenha__titulo">Anna Karenina</h1>
+                    <p class="resenha__autor">Liévin Tolstoi</p>
+                    <p class="resenha__descricao">Romance russo do século 18 que narra a complexa
+                        sociedade de Moscou e São Petersburgo</p>
+                    <p class="resenha__texto">A trama gira em torno do caso extra-conjugal da personagem que dá título à obra, uma aristocrata da Rússia Czarista que, a despeito de parecer ter 
+                        tudo (beleza, riqueza, popularidade e um filho amado), sente-se vazia até encontrar o impetuoso oficial Conde Vronsky, com quem inicia um caso amoroso. A história começa 
+                        com Anna chegando à casa do seu irmão, Stepan, que está em uma situação difícil com sua esposa, Dolly, e Anna trata de intervir na situação, que de alguma forma é um reflexo
+                         da sua própria situação.
+                        O oficial Vronsky está disposto a se casar com Anna Karenina assim que ela se divorcie do seu esposo Alexey Karenin, um alto servidor público, mas ela é vulnerável às pressões 
+                        da sociedade russa, a suas próprias inseguranças e à indecisão de Karenin. Ainda que ela e Vronsky fujam para a Itália, eles encontram dificuldade em fazer amigos. De volta à
+                         Rússia, ela se torna cada vez mais ansiosa e isolada, enquanto Vronsky continua mantendo uma vida social. Apesar das reafirmações de Vronsky, ela se torna cada vez mais
+                          possessiva e paranóica sobre a infidelidade de seu amante, chegando a ficar fora de controle.
+                        Paralelamente acompanhamos a história de Konstantin Levin, um proprietário de terra que possui o desejo de se casar com Kitty, irmã de Dolly, chegando a propor casamento duas
+                         vezes, até ela aceitar. O romance detalha as dificuldades de Levin em lidar com seu patrimônio, seu eventual casamento e suas questões pessoais até o nascimento do seu filho.</p>
+                    
+                </section>
+                <section class="resenha__dados">
+                    <p class="resenha__curtidas">561 curtidas</p>
+                    <div class="resenha__dados__botoes">
+                        <img class="resenha__botoes" src="img/heart.svg">
+                        <img class="resenha__botoes" src="img/send2.svg">
+                        <img class="resenha__botoes__salvar" src="img/Salvos.svg">
+                    </div>
+                </section>
+            </div>
+            
+            
         </div>
-    </section>
-
 
     <footer class="rodape">
         <p class="rodape__texto">Desenvolvido por Patrick</p>
